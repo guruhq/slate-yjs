@@ -1,7 +1,7 @@
 {
   "name": "@guruhq/slate-yjs-react",
   "sideEffects": false,
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "React specific components/utils for slate-yjs.",
   "keywords": [
     "slate",
@@ -48,7 +48,7 @@
   "homepage": "https://github.com/BitPhinix/slate-yjs#readme",
   "dependencies": {
     "react-dom": "^18.2.0",
-    "@guruhq/slate-yjs-core": "^0.3.0",
+    "@guruhq/slate-yjs-core": "^0.3.2",
     "use-sync-external-store": "^1.2.0",
     "y-protocols": "^1.0.5"
   }

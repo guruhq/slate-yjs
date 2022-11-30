@@ -1,5 +1,5 @@
-import { BaseRange, Editor, Path, Range, Text } from 'slate';
-import { ReactEditor } from 'slate-react';
+import { BaseRange, Editor, Path, Range, Text } from 'slate-latest';
+import { ReactEditor } from 'slate-react-latest';
 
 export type SelectionRect = {
   width: number;

@@ -1,4 +1,4 @@
-import { BaseEditor, Descendant, Editor, Operation, Point } from 'slate';
+import { BaseEditor, Descendant, Editor, Operation, Point } from 'slate-latest';
 import * as Y from 'yjs';
 import { applyYjsEvents } from '../applyToSlate';
 import { applySlateOp } from '../applyToYjs';
@@ -193,7 +193,7 @@ export function withYjs<T extends Editor>(
     YjsEditor.applyRemoteEvents(e, events, transaction.origin);
   };
 
-  let autoConnectTimeoutId: ReturnType<typeof setTimeout> | null = null;
+  let autoConnectTimeoutId: number | null = null;
   if (autoConnect) {
     autoConnectTimeoutId = setTimeout(() => {
       autoConnectTimeoutId = null;

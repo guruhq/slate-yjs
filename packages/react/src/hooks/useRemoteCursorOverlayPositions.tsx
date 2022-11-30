@@ -1,4 +1,4 @@
-import { CursorState } from '@slate-yjs/core';
+import { CursorState } from '@guruhq/slate-yjs-core';
 import {
   RefObject,
   useCallback,
@@ -7,7 +7,7 @@ import {
   useRef,
   useState,
 } from 'react';
-import { BaseRange, NodeMatch, Text } from 'slate';
+import { BaseRange, NodeMatch, Text } from 'slate-latest';
 import { getCursorRange } from '../utils/getCursorRange';
 import {
   CaretPosition,

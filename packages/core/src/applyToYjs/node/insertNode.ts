@@ -1,4 +1,4 @@
-import { InsertNodeOperation, Node, Text } from 'slate';
+import { InsertNodeOperation, Node, Text } from 'slate-latest';
 import * as Y from 'yjs';
 import { slateElementToYText } from '../../utils/convert';
 import { getYTarget } from '../../utils/location';

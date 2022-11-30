@@ -1,4 +1,4 @@
-import { Editor, Range } from 'slate';
+import { Editor, Range } from 'slate-latest';
 import { Awareness } from 'y-protocols/awareness';
 import * as Y from 'yjs';
 import { RelativeRange } from '../model/types';

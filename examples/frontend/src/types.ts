@@ -1,4 +1,4 @@
-import { CursorEditor, YHistoryEditor, YjsEditor } from '@slate-yjs/core';
+import { CursorEditor, YHistoryEditor, YjsEditor } from '@guruhq/slate-yjs-core';
 import { Descendant } from 'slate';
 import { ReactEditor } from 'slate-react';
 
@@ -52,7 +52,7 @@ export type CustomEditor = ReactEditor &
   YHistoryEditor &
   CursorEditor<CursorData>;
 
-declare module 'slate' {
+declare module 'slate-latest' {
   interface CustomTypes {
     Editor: CustomEditor;
     Element: CustomElement;

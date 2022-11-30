@@ -1,4 +1,4 @@
-import { Editor, Element, Transforms } from 'slate';
+import { Editor, Element, Transforms } from 'slate-latest';
 import * as Y from 'yjs';
 import { wait } from '../../../support/utils';
 import { slateNodesToInsertDelta, withYjs } from '../src';

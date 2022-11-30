@@ -1,5 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { createEditor, Editor } from 'slate';
+import { createEditor, Editor } from 'slate-latest';
 import { describe, expect } from 'vitest';
 import * as Y from 'yjs';
 import { fixtures } from '../../../support/fixtures';

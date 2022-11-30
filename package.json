@@ -1,23 +1,20 @@
 {
-  "name": "slate-yjs",
+  "name": "guruhq-slate-yjs",
+  "private": true,
   "workspaces": [
-    "packages/*",
-    "examples/*"
+    "packages/*"
   ],
   "scripts": {
     "build": "yarn workspaces foreach -ipv --topological-dev run build",
     "dev": "yarn workspaces foreach -ipv run dev",
     "deploy": "yarn deploy:docs",
-    "deploy:docs": "yarn workspace @slate-yjs/example deploy",
     "lint": "yarn lint:typescript && yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
     "lint:typescript": "tsc --build ./ --force",
     "test": "yarn run vitest run",
     "test:watch": "yarn run vitest",
-    "clean": "git clean -dfX",
-    "prerelease": "yarn lint && yarn test && yarn build",
-    "release": "yarn prerelease && yarn changeset publish"
+    "clean": "git clean -dfX"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.7",
@@ -36,5 +33,8 @@
     "slate-hyperscript": "^0.67.0",
     "typescript": "^4.6.3",
     "vitest": "^0.8.1"
+  },
+  "dependencies": {
+    "slate": "^0.86.0"
   }
 }

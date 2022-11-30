@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { Editor, Transforms } from 'slate';
+import { Editor, Transforms } from 'slate-latest';
 import { jsx } from '../../../../../../support/jsx';
 
 export const input = (

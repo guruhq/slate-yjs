@@ -1,4 +1,4 @@
-import { BaseText, Descendant, Text } from 'slate';
+import { BaseText, Descendant, Text } from 'slate-latest';
 import { omit } from './object';
 
 export function getProperties<TNode extends Descendant>(

@@ -1,10 +1,10 @@
 import { HocuspocusProvider } from '@hocuspocus/provider';
-import { withCursors, withYHistory, withYjs, YjsEditor } from '@slate-yjs/core';
+import { withCursors, withYHistory, withYjs, YjsEditor } from '@guruhq/slate-yjs-core';
 import {
   getRemoteCaretsOnLeaf,
   getRemoteCursorsOnLeaf,
   useDecorateRemoteCursors,
-} from '@slate-yjs/react';
+} from '@guruhq/slate-yjs-react';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { createEditor, Descendant, Text } from 'slate';
 import { RenderLeafProps, Slate, withReact } from 'slate-react';

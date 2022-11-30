@@ -1,4 +1,4 @@
-import { InsertTextOperation, Node, Text } from 'slate';
+import { InsertTextOperation, Node, Text } from 'slate-latest';
 import type Y from 'yjs';
 import { getYTarget } from '../../utils/location';
 import { getProperties } from '../../utils/slate';

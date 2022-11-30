@@ -2,8 +2,8 @@ import {
   CursorEditor,
   CursorState,
   RemoteCursorChangeEventListener,
-} from '@slate-yjs/core';
-import { BaseEditor } from 'slate';
+} from '@guruhq/slate-yjs-core';
+import { BaseEditor } from 'slate-latest';
 import { Store } from '../types';
 import { useRemoteCursorEditor } from './useRemoteCursorEditor';
 

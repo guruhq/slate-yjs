@@ -1,4 +1,4 @@
-import { TextOperation } from 'slate';
+import { TextOperation } from 'slate-latest';
 import { OpMapper } from '../types';
 import { insertText } from './insertText';
 import { removeText } from './removeText';

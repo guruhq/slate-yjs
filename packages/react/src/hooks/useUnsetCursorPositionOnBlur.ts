@@ -1,6 +1,6 @@
-import { CursorEditor } from '@slate-yjs/core';
+import { CursorEditor } from '@guruhq/slate-yjs-core';
 import { useCallback, useEffect } from 'react';
-import { useFocused } from 'slate-react';
+import { useFocused } from 'slate-react-latest';
 import { useRemoteCursorEditor } from './useRemoteCursorEditor';
 
 export function useUnsetCursorPositionOnBlur() {

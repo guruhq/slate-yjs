@@ -27,6 +27,6 @@ jobs:
         run: yarn
 
       - name: Publish to github registry
-        run: yarn release
+        run: ls -la && yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -7,7 +7,7 @@
   "scripts": {
     "build": "yarn workspaces foreach -ipv --topological-dev run build",
     "dev": "yarn workspaces foreach -ipv run dev",
-    "release": "yarn build && yarn workspaces foreach -ipv run publish",
+    "release": "yarn workspaces foreach -ipv run release",
     "deploy": "yarn deploy:docs",
     "lint": "yarn lint:typescript && yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "eslint .",

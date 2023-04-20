@@ -24,7 +24,7 @@ jobs:
 #          registry-url: https://npm.pkg.github.com/
 
       - name: Install Dependencies
-        run: yarn && ls -la 
+        run: yarn install && ls -la 
 
       - name: Publish to github registry
         run: yarn release

@@ -30,7 +30,7 @@
   "devDependencies": {
     "slate-hyperscript": "^0.67.0",
     "slate-latest": "^0.82.1",
-    "tsup": "^5.12.yarn build &&e1",
+    "tsup": "^6.7.0",
     "typescript": "^4.6.3",
     "yjs": "^13.5.29"
   },

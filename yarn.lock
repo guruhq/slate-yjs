@@ -343,6 +343,7 @@ __metadata:
   resolution: "@guruhq/slate-yjs-core@workspace:packages/core"
   dependencies:
     slate-hyperscript: ^0.67.0
+    slate-latest: ^0.82.1
     tsup: ^5.12.1
     typescript: ^4.6.3
     y-protocols: ^1.0.5
@@ -528,9 +529,9 @@ __metadata:
   linkType: hard
 
 "@types/lodash@npm:^4.14.149":
-  version: 4.14.190
-  resolution: "@types/lodash@npm:4.14.190"
-  checksum: 353a55a1222a57224ead8bd3379fabb2e3e3f6685f599c48b1b66f099d8e9e015e6c6352c6e2275954004c3bb510377804c63117233c6f187700b6ab78adfa02
+  version: 4.14.194
+  resolution: "@types/lodash@npm:4.14.194"
+  checksum: 113f34831c461469d91feca2dde737f88487732898b4d25e9eb23b087bb193985f864d1e1e0f3b777edc5022e460443588b6000a3b2348c966f72d17eedc35ea
   languageName: node
   linkType: hard
 
@@ -4550,19 +4551,19 @@ __metadata:
   linkType: hard
 
 "slate-latest@npm:^0.82.1":
-  version: 0.82.1
-  resolution: "slate-latest@npm:0.82.1"
+  version: 0.82.2
+  resolution: "slate-latest@npm:0.82.2"
   dependencies:
     immer: ^9.0.6
     is-plain-object: ^5.0.0
     tiny-warning: ^1.0.3
-  checksum: ad912184d6487d2bd16dc39289f3eedf4e04c773dabfbb8e63a4304c9ab9c069eacb43bd1652e1ac8da53de544eeb12348218444627cfa0f3e5943ee1ec02208
+  checksum: 41ef0632ac2c28f37a52a55fb3c7ba2b39168ad00a6e6fd44721e340326938f50208b00c955a8ebf67556427f10d780af056af0f9a78b19996d1879c6b1b0d10
   languageName: node
   linkType: hard
 
 "slate-react-latest@npm:^0.83.0":
-  version: 0.83.0
-  resolution: "slate-react-latest@npm:0.83.0"
+  version: 0.83.2
+  resolution: "slate-react-latest@npm:0.83.2"
   dependencies:
     "@types/is-hotkey": ^0.1.1
     "@types/lodash": ^4.14.149
@@ -4576,7 +4577,7 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
     slate-latest: ">=0.65.3"
-  checksum: 0e48f63a076b7b8ada7f9fa27f62828a2c7ce488f2475eb51ad0906ce688f1d54bc661e587d2986753f8b7fb18c97419e184ff0e3148ca5bb43fe0783095f352
+  checksum: 5bdf8a1fd8c957f49df10b3da67ab6573b398bce3789785ecc53bd8b3e14de354da752f04c2b3cc7a8aa80eec2683eb58be988f4476846bb46a6c077b259045f
   languageName: node
   linkType: hard
 

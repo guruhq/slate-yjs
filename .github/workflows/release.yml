@@ -5,7 +5,7 @@ on:
     branches:
       - guru-packages
 
-concurrency: ${{ github.workflow }}-${{ github.ref }}
+# concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   release:
@@ -14,8 +14,8 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
+#        with:
+#          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v2
@@ -24,7 +24,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
 
       - name: Install Dependencies
-        run: yarn -v
+        run: yarn install -v && ls -la
 
       - name: Publish to github registry
         run: yarn release

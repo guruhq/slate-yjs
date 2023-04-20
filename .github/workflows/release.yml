@@ -28,6 +28,6 @@ jobs:
         run: yarn --immutable
 
       - name: Publish to github registry
-        run: yarn publish
+        run: yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

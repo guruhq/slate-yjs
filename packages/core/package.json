@@ -19,7 +19,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "yarn run tsup && tsc --emitDeclarationOnly",
-    "release": "yarn run build && npm run publish",
+    "release": "yarn run build && npm publish",
     "dev": "yarn run tsup --watch"
   },
   "repository": {

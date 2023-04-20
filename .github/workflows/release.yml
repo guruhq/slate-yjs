@@ -23,10 +23,7 @@ jobs:
           node-version-file: '.nvmrc'
           registry-url: https://npm.pkg.github.com/
 
-      - name: Install Dependencies
-        run: yarn
-
       - name: Publish to github registry
-        run: ls -la node_modules && yarn release
+        run: yarn && ls -la node_modules && yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

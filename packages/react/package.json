@@ -29,9 +29,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "^17.0.34",
     "@types/use-sync-external-store": "^0.0.3",
-    "react": "^17.0.2",
+    "react": "^16.13.1",
     "slate-latest": "^0.82.1",
     "slate-react-latest": "^0.83.0",
     "tsup": "^6.7.0",
@@ -39,8 +38,8 @@
     "yjs": "^13.5.29"
   },
   "peerDependencies": {
-    "slate-latest": "^0.82.1",
-    "slate-react-latest": "^0.83.0",
+    "slate-latest": "^0.82.2",
+    "slate-react-latest": "^0.83.2",
     "yjs": "^13.5.29"
   },
   "bugs": {

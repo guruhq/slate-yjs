@@ -213,14 +213,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@guruhq/slate-yjs-core@workspace:packages/core"
   dependencies:
+    slate: ^0.84.0
     slate-hyperscript: ^0.67.0
-    slate-latest: ^0.82.1
     tsup: ^6.7.0
     typescript: ^4.6.3
     y-protocols: ^1.0.5
     yjs: ^13.5.29
   peerDependencies:
-    slate-latest: ^0.82.1
+    slate: ^0.84.0
     yjs: ^13.5.29
   languageName: unknown
   linkType: soft
@@ -3672,7 +3672,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slate-latest@npm:^0.82.1, slate-latest@npm:^0.82.2":
+"slate-latest@npm:^0.82.2":
   version: 0.82.2
   resolution: "slate-latest@npm:0.82.2"
   dependencies:
@@ -3700,6 +3700,17 @@ __metadata:
     react-dom: ">=16.8.0"
     slate-latest: ">=0.65.3"
   checksum: 5bdf8a1fd8c957f49df10b3da67ab6573b398bce3789785ecc53bd8b3e14de354da752f04c2b3cc7a8aa80eec2683eb58be988f4476846bb46a6c077b259045f
+  languageName: node
+  linkType: hard
+
+"slate@npm:^0.84.0":
+  version: 0.84.0
+  resolution: "slate@npm:0.84.0"
+  dependencies:
+    immer: ^9.0.6
+    is-plain-object: ^5.0.0
+    tiny-warning: ^1.0.3
+  checksum: d74de16a40571b2513dbd96efee8fe891909357a7011131f8fae738a0eace5b3c7c2da1c0ebfb1ffe66c8c933507ca618772fb607fbc9e44aa5158d3d874c5a2
   languageName: node
   linkType: hard
 

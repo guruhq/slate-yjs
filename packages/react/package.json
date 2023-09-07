@@ -1,7 +1,7 @@
 {
   "name": "@guruhq/slate-yjs-react",
   "sideEffects": false,
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "React specific components/utils for slate-yjs.",
   "keywords": [
     "slate",
@@ -33,16 +33,16 @@
     "@types/use-sync-external-store": "^0.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "slate-latest": "^0.82.2",
-    "slate-react-latest": "^0.83.2",
+    "slate": "^0.84.0",
+    "slate-react-latest": "^0.89.0",
     "tsup": "^6.7.0",
     "typescript": "^4.6.3",
     "yjs": "^13.5.29"
   },
   "peerDependencies": {
     "react-dom": "^16.13.1",
-    "slate-latest": "^0.82.2",
-    "slate-react-latest": "^0.83.2",
+    "slate": "^0.84.0",
+    "slate-react-latest": "^0.89.0",
     "yjs": "^13.5.29"
   },
   "bugs": {

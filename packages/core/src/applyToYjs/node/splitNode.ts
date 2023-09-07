@@ -1,4 +1,4 @@
-import { Node, SplitNodeOperation, Text } from 'slate-latest';
+import { Node, SplitNodeOperation, Text } from 'slate';
 import * as Y from 'yjs';
 import { cloneInsertDeltaDeep } from '../../utils/clone';
 import { sliceInsertDelta, yTextToInsertDelta } from '../../utils/delta';

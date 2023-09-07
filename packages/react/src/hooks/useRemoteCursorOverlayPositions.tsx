@@ -7,7 +7,7 @@ import {
   useRef,
   useState,
 } from 'react';
-import { BaseRange, NodeMatch, Text } from 'slate-latest';
+import { BaseRange, NodeMatch, Text } from 'slate';
 import { getCursorRange } from '../utils/getCursorRange';
 import {
   CaretPosition,

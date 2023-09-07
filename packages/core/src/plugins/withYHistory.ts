@@ -1,4 +1,4 @@
-import { Editor, Transforms } from 'slate-latest';
+import { Editor, Transforms } from 'slate';
 import * as Y from 'yjs';
 import { HistoryStackItem, RelativeRange } from '../model/types';
 import {

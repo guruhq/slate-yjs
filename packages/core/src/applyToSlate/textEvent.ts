@@ -1,4 +1,4 @@
-import { Editor, Element, Node, Operation, Path, Text } from 'slate-latest';
+import { Editor, Element, Node, Operation, Path, Text } from 'slate';
 import * as Y from 'yjs';
 import { Delta } from '../model/types';
 import { deltaInsertToSlateNode } from '../utils/convert';

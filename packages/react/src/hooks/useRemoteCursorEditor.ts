@@ -1,5 +1,5 @@
 import { CursorEditor } from '@guruhq/slate-yjs-core';
-import { ReactEditor, useSlateStatic } from 'slate-react-latest';
+import { ReactEditor, useSlateStatic } from 'slate-react';
 
 export function useRemoteCursorEditor<
   TCursorData extends Record<string, unknown> = Record<string, unknown>

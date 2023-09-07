@@ -1,4 +1,4 @@
-import { Element, Node, Text } from 'slate-latest';
+import { Element, Node, Text } from 'slate';
 import * as Y from 'yjs';
 import { DeltaInsert, InsertDelta } from '../model/types';
 import { yTextToInsertDelta } from './delta';

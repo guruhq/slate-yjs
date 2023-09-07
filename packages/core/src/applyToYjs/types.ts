@@ -1,4 +1,4 @@
-import { Node, Operation } from 'slate-latest';
+import { Node, Operation } from 'slate';
 import * as Y from 'yjs';
 
 export type ApplyFunc<O extends Operation = Operation> = (

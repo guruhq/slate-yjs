@@ -15,7 +15,7 @@ export default defineConfig(
         sourcemap: true,
         minify: false,
         clean: !watch,
-        external: ['slate-latest', 'slate-react-latest'],
+        external: ['slate', 'slate-react'],
       },
       !!watch && {
         entry: ['src'],
@@ -28,7 +28,7 @@ export default defineConfig(
         dts: true,
         minify: false,
         clean: false,
-        external: ['slate-latest', 'slate-react-latest'],
+        external: ['slate', 'slate-react'],
       },
     ].filter(Boolean)
 );

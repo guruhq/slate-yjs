@@ -52,7 +52,7 @@ export type CustomEditor = ReactEditor &
   YHistoryEditor &
   CursorEditor<CursorData>;
 
-declare module 'slate-latest' {
+declare module 'slate' {
   interface CustomTypes {
     Editor: CustomEditor;
     Element: CustomElement;

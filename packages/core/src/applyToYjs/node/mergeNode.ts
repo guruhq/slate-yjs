@@ -1,4 +1,4 @@
-import { MergeNodeOperation, Node, Path, Text } from 'slate-latest';
+import { MergeNodeOperation, Node, Path, Text } from 'slate';
 import * as Y from 'yjs';
 import { Delta } from '../../model/types';
 import { cloneInsertDeltaDeep } from '../../utils/clone';

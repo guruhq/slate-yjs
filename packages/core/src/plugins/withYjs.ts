@@ -1,4 +1,4 @@
-import { BaseEditor, Descendant, Editor, Operation, Point } from 'slate-latest';
+import { BaseEditor, Descendant, Editor, Operation, Point } from 'slate';
 import * as Y from 'yjs';
 import { applyYjsEvents } from '../applyToSlate';
 import { applySlateOp } from '../applyToYjs';

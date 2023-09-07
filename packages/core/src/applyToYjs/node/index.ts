@@ -1,4 +1,4 @@
-import { NodeOperation } from 'slate-latest';
+import { NodeOperation } from 'slate';
 import { OpMapper } from '../types';
 import { insertNode } from './insertNode';
 import { mergeNode } from './mergeNode';

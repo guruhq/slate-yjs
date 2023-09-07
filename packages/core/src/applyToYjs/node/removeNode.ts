@@ -1,4 +1,4 @@
-import { Node, RemoveNodeOperation } from 'slate-latest';
+import { Node, RemoveNodeOperation } from 'slate';
 import * as Y from 'yjs';
 import { getYTarget } from '../../utils/location';
 

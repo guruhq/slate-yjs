@@ -234,8 +234,8 @@ __metadata:
     "@types/use-sync-external-store": ^0.0.3
     react: ^16.13.1
     react-dom: ^16.13.1
-    slate-latest: ^0.82.2
-    slate-react-latest: ^0.83.2
+    slate: ^0.84.0
+    slate-react: ^0.89.0
     tsup: ^6.7.0
     typescript: ^4.6.3
     use-sync-external-store: ^1.2.0
@@ -243,8 +243,8 @@ __metadata:
     yjs: ^13.5.29
   peerDependencies:
     react-dom: ^16.13.1
-    slate-latest: ^0.82.2
-    slate-react-latest: ^0.83.2
+    slate: ^0.84.0
+    slate-react: ^0.89.0
     yjs: ^13.5.29
   languageName: unknown
   linkType: soft
@@ -271,6 +271,13 @@ __metadata:
   version: 1.2.1
   resolution: "@humanwhocodes/object-schema@npm:1.2.1"
   checksum: a824a1ec31591231e4bad5787641f59e9633827d0a2eaae131a288d33c9ef0290bd16fda8da6f7c0fcb014147865d12118df10db57f27f41e20da92369fcb3f1
+  languageName: node
+  linkType: hard
+
+"@juggle/resize-observer@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@juggle/resize-observer@npm:3.4.0"
+  checksum: 2505028c05cc2e17639fcad06218b1c4b60f932a4ebb4b41ab546ef8c157031ae377e3f560903801f6d01706dbefd4943b6c4704bf19ed86dfa1c62f1473a570
   languageName: node
   linkType: hard
 
@@ -3672,21 +3679,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slate-latest@npm:^0.82.2":
-  version: 0.82.2
-  resolution: "slate-latest@npm:0.82.2"
+"slate-react@npm:^0.89.0":
+  version: 0.89.0
+  resolution: "slate-react@npm:0.89.0"
   dependencies:
-    immer: ^9.0.6
-    is-plain-object: ^5.0.0
-    tiny-warning: ^1.0.3
-  checksum: 41ef0632ac2c28f37a52a55fb3c7ba2b39168ad00a6e6fd44721e340326938f50208b00c955a8ebf67556427f10d780af056af0f9a78b19996d1879c6b1b0d10
-  languageName: node
-  linkType: hard
-
-"slate-react-latest@npm:^0.83.2":
-  version: 0.83.2
-  resolution: "slate-react-latest@npm:0.83.2"
-  dependencies:
+    "@juggle/resize-observer": ^3.4.0
     "@types/is-hotkey": ^0.1.1
     "@types/lodash": ^4.14.149
     direction: ^1.0.3
@@ -3698,8 +3695,8 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-    slate-latest: ">=0.65.3"
-  checksum: 5bdf8a1fd8c957f49df10b3da67ab6573b398bce3789785ecc53bd8b3e14de354da752f04c2b3cc7a8aa80eec2683eb58be988f4476846bb46a6c077b259045f
+    slate: ">=0.65.3"
+  checksum: 28367d37aa6531bdbdac87111f25cc2648c66d38625333446594d7d25a020eb66b5ffb8e80281ef660abf9780e7f25b3a0d968b53e83f7fed10692fed8155899
   languageName: node
   linkType: hard
 
